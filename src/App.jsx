@@ -19,7 +19,7 @@ function App() {
     // console.log("Words Array: " + wordsArray);
 
     const correctedWords = wordsArray.map((item) => {
-      const correctedWord = dictionary[item] || item;
+      const correctedWord = dictionary[item.toLowerCase()] || item;
       return correctedWord;
     });
 
