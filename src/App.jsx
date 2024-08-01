@@ -5,7 +5,7 @@ import "./App.css";
 const dictionary = {
   teh: "the",
   wrok: "work",
-  for: "for",
+  fot: "for",
   exampl: "example",
 };
 
